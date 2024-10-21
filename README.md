@@ -26,16 +26,6 @@ pip install -r requirements.txt
 
 2. **Inference**: Estimate cardinalities for new SQL queries by using the trained model.
 
-**Example**:
-```python
-# Example usage for processing an SQL query
-from cardinality_estimator import create_graph_data, preprocess_text_for_bert
-
-sql_query = "SELECT * FROM customers WHERE age > 25"
-graph_data = create_graph_data(sql_query)
-preprocessed_data = preprocess_text_for_bert([sql_query])
-```
-
 ## Directory Structure
 
 - **`Predict_Cardinalities.ipynb`**: Jupyter notebook demonstrating the use of the model for predicting cardinalities.
