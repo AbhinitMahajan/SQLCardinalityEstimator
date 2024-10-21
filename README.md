@@ -2,6 +2,8 @@
 
 ## Overview
 
+For a detailed explanation of the project, you can refer to the [Project Report](Cardinality%20Estimation%20Using%20Multimodal%20ML.pdf).
+
 This project presents a hybrid model for SQL cardinality estimation, combining a transformer-based approach (BERT) and a Graph Neural Network (ResidualGNN). The objective is to enhance the accuracy of cardinality estimation by leveraging both the structural representation and the contextual information of SQL queries, thus contributing to more efficient query processing in database management systems.
 
 ## Features
@@ -25,6 +27,7 @@ pip install -r requirements.txt
 1. **Model Training**: Train the model by providing a set of SQL queries as input. The training pipeline parses each query into a graph representation for the GNN and tokenizes the text for the transformer.
 
 2. **Inference**: Estimate cardinalities for new SQL queries by using the trained model.
+
 
 ## Directory Structure
 
